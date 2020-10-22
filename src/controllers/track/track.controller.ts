@@ -40,7 +40,7 @@ export class TrackController {
         const { codes } = req.query;
 
         // Track all codes
-        const tracks = await this.trackService.get(codes.split(','));
+        const tracks = await this.trackService.get((codes as string).split(','));
 
         req.sendResponse(tracks);
 
