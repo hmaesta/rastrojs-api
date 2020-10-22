@@ -10,19 +10,23 @@
     "url": "https://github.com/talesluna/rastrojs-api"
   },
   "dependencies": {
-    "@agio/framework": "^1.1.1",
-    "joi": "^14.3.1",
-    "lodash": "^4.17.11",
-    "mysql2": "^1.6.5",
-    "nodemon": "^1.19.0",
-    "rastrojs": "^1.0.3"
+    "@agio/framework": "1.1",
+    "joi": "14.3",
+    "lodash": "4.17",
+    "mysql2": "1.6",
+    "nodemon": "1.19",
+    "rastrojs": "1.0",
+    "sequelize": "4.41",
+    "sequelize-typescript": "0.6"
   },
   "devDependencies": {
-    "@types/joi": "^14.3.3",
-    "@types/lodash": "^4.14.129",
-    "@types/node": "^12.0.1",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
+    "@types/joi": "14.3",
+    "@types/lodash": "4.14",
+    "@types/node": "12.0",
+    "@types/validator": "10.11",
+    "@types/sequelize": "4.28",
+    "ts-node": "8.3",
+    "typescript": "3.5"
   },
   "scripts": {
     "start": "node dist/app.js",
